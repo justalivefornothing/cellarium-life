@@ -1,0 +1,23 @@
+{
+  "name": "cellarium-life",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.2",
+    "vite": "^8.2.2",
+    "vitest": "^5.0.0"
+  },
+  "description": "An infinite-grid cellular automaton lab with an RLE importer, a built-in pattern library, and custom B/S rule strings.",
+  "license": "MIT",
+  "dependencies": {
+    "@fontsource/fraunces": "^5.3.0",
+    "@fontsource/inter": "^5.3.0"
+  }
+}
