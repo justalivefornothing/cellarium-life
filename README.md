@@ -1,6 +1,6 @@
 # Cellarium Life
 
-An infinite-grid cellular automaton lab in the browser.
+Infinite-grid cellular automaton lab in the browser.
 
 Paste any RLE pattern, pick a B/S rule, hit play, and pan/zoom across an unbounded plane while generation and population counters tick.
 
@@ -18,9 +18,13 @@ Paste any RLE pattern, pick a B/S rule, hit play, and pan/zoom across an unbound
 
 Core (`src/core`) is pure TypeScript / DOM-free and unit-tested. UI is canvas + vanilla TS.
 
-## Status
+## Run
 
-See `PLAN.md` for architecture and remaining milestones.
+```bash
+npm install
+npm run dev
+npm test
+```
 
 ## License
 
